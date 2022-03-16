@@ -1,0 +1,43 @@
+2022-03-16 08:07:24,717 || INFO || Connected to Server: 192.168.0.50 Port: 12345 || __main__2022-03-16 08:13:16,224 || INFO || Message: Hello | Creating Packets to send message... || __main__
+2022-03-16 08:13:16,225 || INFO || Covert Element: H | Forged IP Address: 179.159.174.72 || __main__
+2022-03-16 08:13:16,226 || INFO || Covert Element: e | Forged IP Address: 15.157.61.101 || __main__
+2022-03-16 08:13:16,226 || INFO || Covert Element: l | Forged IP Address: 187.65.61.108 || __main__
+2022-03-16 08:13:16,227 || INFO || Covert Element: l | Forged IP Address: 130.179.27.108 || __main__
+2022-03-16 08:13:16,228 || INFO || Covert Element: o | Forged IP Address: 70.86.117.111 || __main__
+2022-03-16 08:13:16,228 || INFO || Connected to Server: 192.168.0.50 Port: 12345 || __main__
+2022-03-16 08:22:33,935 || INFO || Message: Hello | Creating Packets to send message... || __main__
+2022-03-16 08:22:33,935 || INFO || Covert Element: H | Forged IP Address: 192.228.219.72 || __main__
+2022-03-16 08:22:33,936 || INFO || Covert Element: e | Forged IP Address: 21.101.155.101 || __main__
+2022-03-16 08:22:33,937 || INFO || Covert Element: l | Forged IP Address: 136.181.45.108 || __main__
+2022-03-16 08:22:33,938 || INFO || Covert Element: l | Forged IP Address: 120.91.255.108 || __main__
+2022-03-16 08:22:33,939 || INFO || Covert Element: o | Forged IP Address: 38.228.82.111 || __main__
+2022-03-16 08:22:33,939 || INFO || Connected to Server: 192.168.0.50 Port: 12345 || __main__
+2022-03-16 08:22:52,521 || INFO || Message: Hello there general Kenobi! | Creating Packets to send message... || __main__
+2022-03-16 08:22:52,522 || INFO || Covert Element: H | Forged IP Address: 13.44.254.72 || __main__
+2022-03-16 08:22:52,523 || INFO || Covert Element: e | Forged IP Address: 95.213.159.101 || __main__
+2022-03-16 08:22:52,523 || INFO || Covert Element: l | Forged IP Address: 184.238.155.108 || __main__
+2022-03-16 08:22:52,524 || INFO || Covert Element: l | Forged IP Address: 89.209.64.108 || __main__
+2022-03-16 08:22:52,525 || INFO || Covert Element: o | Forged IP Address: 77.60.172.111 || __main__
+2022-03-16 08:22:52,526 || INFO || Covert Element:   | Forged IP Address: 130.143.133.32 || __main__
+2022-03-16 08:22:52,526 || INFO || Covert Element: t | Forged IP Address: 235.103.135.116 || __main__
+2022-03-16 08:22:52,527 || INFO || Covert Element: h | Forged IP Address: 41.204.68.104 || __main__
+2022-03-16 08:22:52,528 || INFO || Covert Element: e | Forged IP Address: 15.133.210.101 || __main__
+2022-03-16 08:22:52,528 || INFO || Covert Element: r | Forged IP Address: 169.233.173.114 || __main__
+2022-03-16 08:22:52,529 || INFO || Covert Element: e | Forged IP Address: 28.19.5.101 || __main__
+2022-03-16 08:22:52,530 || INFO || Covert Element:   | Forged IP Address: 110.107.83.32 || __main__
+2022-03-16 08:22:52,530 || INFO || Covert Element: g | Forged IP Address: 10.150.174.103 || __main__
+2022-03-16 08:22:52,531 || INFO || Covert Element: e | Forged IP Address: 120.111.250.101 || __main__
+2022-03-16 08:22:52,532 || INFO || Covert Element: n | Forged IP Address: 196.236.244.110 || __main__
+2022-03-16 08:22:52,533 || INFO || Covert Element: e | Forged IP Address: 198.116.5.101 || __main__
+2022-03-16 08:22:52,533 || INFO || Covert Element: r | Forged IP Address: 224.197.114.114 || __main__
+2022-03-16 08:22:52,534 || INFO || Covert Element: a | Forged IP Address: 115.139.205.97 || __main__
+2022-03-16 08:22:52,535 || INFO || Covert Element: l | Forged IP Address: 191.168.150.108 || __main__
+2022-03-16 08:22:52,535 || INFO || Covert Element:   | Forged IP Address: 140.92.172.32 || __main__
+2022-03-16 08:22:52,536 || INFO || Covert Element: K | Forged IP Address: 222.230.19.75 || __main__
+2022-03-16 08:22:52,537 || INFO || Covert Element: e | Forged IP Address: 101.51.105.101 || __main__
+2022-03-16 08:22:52,538 || INFO || Covert Element: n | Forged IP Address: 220.136.29.110 || __main__
+2022-03-16 08:22:52,538 || INFO || Covert Element: o | Forged IP Address: 214.146.65.111 || __main__
+2022-03-16 08:22:52,539 || INFO || Covert Element: b | Forged IP Address: 107.124.180.98 || __main__
+2022-03-16 08:22:52,540 || INFO || Covert Element: i | Forged IP Address: 162.142.218.105 || __main__
+2022-03-16 08:22:52,540 || INFO || Covert Element: ! | Forged IP Address: 23.151.94.33 || __main__
+2022-03-16 08:22:52,541 || INFO || Connected to Server: 192.168.0.50 Port: 12345 || __main__

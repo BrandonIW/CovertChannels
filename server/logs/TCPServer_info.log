@@ -1,0 +1,52 @@
+2022-03-15 22:11:15,444 || INFO || Server: 127.0.0.1 | Port: 12345 | Status: Listening... || __main__
+2022-03-15 22:12:23,019 || INFO || Server: 127.0.0.1 | Port: 12345 | Status: Listening... || __main__
+2022-03-15 22:12:40,616 || WARNING || Thread 1: Server IP of 192.168.0.95 is invalid when establishing socket. Check interface IP Address || __main__
+2022-03-15 22:12:53,048 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-15 22:13:58,878 || INFO || Server: 127.0.0.1 | Port: 12345 | Status: Listening... || __main__
+2022-03-15 22:15:30,795 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-15 22:17:37,506 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-15 22:18:25,307 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-15 22:19:25,863 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-15 22:21:57,997 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 07:47:28,905 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 07:49:13,921 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 07:57:15,379 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 08:03:44,316 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 08:04:37,823 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 08:06:22,347 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 08:13:07,144 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 08:22:22,078 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 08:22:33,988 || INFO || Found covert element: H || __main__
+2022-03-16 08:22:35,022 || INFO || Found covert element: e || __main__
+2022-03-16 08:22:36,046 || INFO || Found covert element: l || __main__
+2022-03-16 08:22:37,077 || INFO || Found covert element: l || __main__
+2022-03-16 08:22:38,106 || INFO || Found covert element: o || __main__
+2022-03-16 08:22:39,138 || INFO || Covert Transfer Complete | Message is Hello || __main__
+2022-03-16 08:22:39,139 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
+2022-03-16 08:22:52,600 || INFO || Found covert element: H || __main__
+2022-03-16 08:22:53,630 || INFO || Found covert element: e || __main__
+2022-03-16 08:22:54,657 || INFO || Found covert element: l || __main__
+2022-03-16 08:22:55,685 || INFO || Found covert element: l || __main__
+2022-03-16 08:22:56,706 || INFO || Found covert element: o || __main__
+2022-03-16 08:22:57,738 || INFO || Found covert element:   || __main__
+2022-03-16 08:22:59,798 || INFO || Found covert element: h || __main__
+2022-03-16 08:23:00,829 || INFO || Found covert element: e || __main__
+2022-03-16 08:23:01,858 || INFO || Found covert element: r || __main__
+2022-03-16 08:23:02,886 || INFO || Found covert element: e || __main__
+2022-03-16 08:23:03,915 || INFO || Found covert element:   || __main__
+2022-03-16 08:23:04,950 || INFO || Found covert element: g || __main__
+2022-03-16 08:23:05,982 || INFO || Found covert element: e || __main__
+2022-03-16 08:23:07,014 || INFO || Found covert element: n || __main__
+2022-03-16 08:23:08,041 || INFO || Found covert element: e || __main__
+2022-03-16 08:23:10,101 || INFO || Found covert element: a || __main__
+2022-03-16 08:23:11,142 || INFO || Found covert element: l || __main__
+2022-03-16 08:23:12,170 || INFO || Found covert element:   || __main__
+2022-03-16 08:23:13,202 || INFO || Found covert element: K || __main__
+2022-03-16 08:23:14,245 || INFO || Found covert element: e || __main__
+2022-03-16 08:23:15,277 || INFO || Found covert element: n || __main__
+2022-03-16 08:23:16,310 || INFO || Found covert element: o || __main__
+2022-03-16 08:23:17,345 || INFO || Found covert element: b || __main__
+2022-03-16 08:23:18,373 || INFO || Found covert element: i || __main__
+2022-03-16 08:23:19,406 || INFO || Found covert element: ! || __main__
+2022-03-16 08:23:20,430 || INFO || Covert Transfer Complete | Message is Hello here geneal Kenobi! || __main__
+2022-03-16 08:23:20,431 || INFO || Server: 192.168.0.50 | Port: 12345 | Status: Listening... || __main__
