@@ -1,7 +1,12 @@
 ## What is CovertChannels?
 Program running in Python 3.9 that utilizes the Scapy library to forge IP packets with false source IP Addresses. The final octet of the false source IP is used as the covert channel, and is replaced by the base 10 representation of ASCII Characters
 
-The program is split into a client and server component. The server component simply listens for incoming packets on the designated interface:port. Received packets are processed by pulling out the final octet of the source IP Address and converting that value into its ASCII equivalent.
+The program is split into client and server components. The client will first take in -m/--message plaintext and create forged packets with Scapy for each element of the plaintext. The client will first create a random IP address and then replace the final octet with that element’s base 10 equivalent. When the message is finished being sent, the client will send a final packet with “END” inserted as Raw data. 
+
+The server component simply listens for incoming packets on the designated interface:port. Received packets are processed by pulling out the final octet of the source IP Address and converting that value into its ASCII equivalent. 
+
+Once the server finds a packet with the raw data “END,” it will concatenate all received covert elements of the message into a single final message that is then returned to the user. 
+
 
 
 ## Compatability
