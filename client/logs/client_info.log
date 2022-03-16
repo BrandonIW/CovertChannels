@@ -41,3 +41,16 @@
 2022-03-16 08:22:52,540 || INFO || Covert Element: i | Forged IP Address: 162.142.218.105 || __main__
 2022-03-16 08:22:52,540 || INFO || Covert Element: ! | Forged IP Address: 23.151.94.33 || __main__
 2022-03-16 08:22:52,541 || INFO || Connected to Server: 192.168.0.50 Port: 12345 || __main__
+2022-03-16 09:46:02,282 || INFO || Message: Hello World | Creating Packets to send message... || __main__
+2022-03-16 09:46:02,283 || INFO || Covert Element: H | Forged IP Address: 208.97.212.72 || __main__
+2022-03-16 09:46:02,284 || INFO || Covert Element: e | Forged IP Address: 61.150.184.101 || __main__
+2022-03-16 09:46:02,285 || INFO || Covert Element: l | Forged IP Address: 20.142.252.108 || __main__
+2022-03-16 09:46:02,285 || INFO || Covert Element: l | Forged IP Address: 135.222.112.108 || __main__
+2022-03-16 09:46:02,286 || INFO || Covert Element: o | Forged IP Address: 184.217.182.111 || __main__
+2022-03-16 09:46:02,287 || INFO || Covert Element:   | Forged IP Address: 158.246.3.32 || __main__
+2022-03-16 09:46:02,287 || INFO || Covert Element: W | Forged IP Address: 13.153.210.87 || __main__
+2022-03-16 09:46:02,288 || INFO || Covert Element: o | Forged IP Address: 100.200.39.111 || __main__
+2022-03-16 09:46:02,289 || INFO || Covert Element: r | Forged IP Address: 157.243.214.114 || __main__
+2022-03-16 09:46:02,290 || INFO || Covert Element: l | Forged IP Address: 4.234.117.108 || __main__
+2022-03-16 09:46:02,290 || INFO || Covert Element: d | Forged IP Address: 72.213.137.100 || __main__
+2022-03-16 09:46:02,291 || INFO || Connected to Server: 192.168.0.95 Port: 12345 || __main__

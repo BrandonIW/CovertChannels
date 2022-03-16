@@ -1,1 +1,2 @@
 2022-03-15 22:12:40,616 || WARNING || Thread 1: Server IP of 192.168.0.95 is invalid when establishing socket. Check interface IP Address || __main__
+2022-03-16 11:14:12,380 || WARNING || Server IP of 192.168.0.55 is invalid when establishing socket. Check interface IP Address || __main__

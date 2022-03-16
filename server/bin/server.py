@@ -11,39 +11,29 @@ from time import sleep
 def main():
     logger = _build_logger()
     ip, port = _input_port_ip()
+    tcp_server(ip, port, logger)
 
-    while True:
-        message = udp_server(ip, port, logger)
-        logger.info(f"Covert Transfer Complete | Message is {''.join(message)}")
 
-def udp_server(ip, port, logger):
+def tcp_server(ip, port, logger):
     server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    message = []
 
     while True:
         try:
             server.bind((ip, int(port)))
             break
 
-        except WindowsError as e:
-            if e.winerror == 10049:
-                logger.warning(f"Thread 1: Server IP of {ip} is invalid when establishing socket. Check interface IP "
-                               f"Address")
+        except IOError as e:
+            if e.errno == 99:
+                logger.warning(f"Server IP of {ip} is invalid when establishing socket. Check interface IP Address")
                 sleep(1)
         ip, port = _input_port_ip()
 
 
     logger.info(f"Server: {ip} | Port: {port} | Status: Listening...")
-
     while True:
         data, address = server.recvfrom(int(port))
-        if data.decode() == "END":
-            return message
-
-        covert_element = chr(int(address[0].split(".")[3]))
-        logger.info(f"Found covert element: {covert_element}")
-        message.append(covert_element)
+        print(data, address)
 
 
 
