@@ -12,9 +12,13 @@ Once the server finds a packet with the raw data “END,” it will concatenate 
 ## Compatability
 Runs on Python 3.9
 Tested on:
+
 •	Windows 10 Version10.0.19042 Build 19042
+
 ●	Kali GNU/Linux Rolling Release 2021.3
+
 ●	RHEL 7.8 (Maipo)
+
 
 Do note firewall rules may need to be edited depending on the port that you are listening on, on the svr 
 
