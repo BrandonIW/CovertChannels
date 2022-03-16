@@ -11,12 +11,16 @@ from time import sleep
 def main():
     logger = _build_logger()
     ip, port = _input_port_ip()
-    tcp_server(ip, port, logger)
+
+    while True:
+        message = udp_server(ip, port, logger)
+        logger.info(f"Covert Transfer Complete | Message is {''.join(message)}")
 
 
-def tcp_server(ip, port, logger):
+def udp_server(ip, port, logger):
     server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    message = []
 
     while True:
         try:
@@ -31,10 +35,15 @@ def tcp_server(ip, port, logger):
 
 
     logger.info(f"Server: {ip} | Port: {port} | Status: Listening...")
+
     while True:
         data, address = server.recvfrom(int(port))
-        print(data, address)
+        if data.decode() == "END":
+            return message
 
+        covert_element = chr(int(address[0].split(".")[3]))
+        logger.info(f"IP Address: {address[0]} | Covert element: {covert_element} | Data: {data}")
+        message.append(covert_element)
 
 
 def _input_port_ip():
