@@ -17,8 +17,8 @@ from time import sleep
 
 def main():
     logger = _build_logger()
-    ip, port = _input_port_ip()
     args = _build_parser()
+    ip, port = _input_port_ip()
 
     packets = build_packets(args.message, logger, ip, port)
     send_packets(packets, ip, port, logger)
@@ -30,7 +30,7 @@ def send_packets(stack, ip, port, logger):
     while stack:
         packet = stack.popleft()
         send(packet)
-        sleep(1)
+        sleep(3)
     send(IP(dst=ip) \
          / UDP(sport=random.randrange(1024, 65535), dport=int(port)) \
          / Raw(b"END"))
@@ -52,7 +52,6 @@ def build_packets(msg, logger, ip, port):
         packet = IP(dst=ip, src=ip_and_covert) \
                  / UDP(sport=random.randrange(1024, 65535), dport=int(port)) \
                  / Raw(b"Assignment 5")
-
         stack.append(packet)
 
     return stack
